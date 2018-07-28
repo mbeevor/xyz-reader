@@ -21,6 +21,11 @@
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/accent</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.Home">
+        <item name="android:windowExitTransition">@transition/exit</item>
     </style>
 
     <style name="ArticleTitle" >
@@ -29,7 +34,7 @@
         <item name="android:paddingLeft">@dimen/padding</item>
         <item name="android:paddingRight">@dimen/padding</item>
         <item name="android:paddingTop">@dimen/padding</item>
-        <item name="android:textColor">@color/accent</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">36sp</item>
         <item name="android:fontFamily">sans-serif</item>
@@ -41,7 +46,7 @@
         <item name="android:paddingLeft">@dimen/padding</item>
         <item name="android:paddingRight">@dimen/padding</item>
         <item name="android:paddingTop">@dimen/narrow_padding</item>
-        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
