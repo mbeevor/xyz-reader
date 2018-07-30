@@ -33,13 +33,12 @@
             android:id="@+id/toolbar"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:minHeight="118dp"
+            android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlwaysCollapsed" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="@dimen/app_logo_size"
+                android:layout_height="@dimen/app_logo_size"
                 android:paddingTop="@dimen/padding"
                 android:paddingBottom="@dimen/padding"
                 android:paddingLeft="@dimen/list_side_margin"
